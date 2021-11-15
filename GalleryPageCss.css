@@ -1,0 +1,65 @@
+            body
+                {
+                    background-color: rgb(45, 175, 175);
+                }
+            
+            h1 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 3em;
+            }    
+
+            #home
+                {  
+                    background-color: gold;
+                    width: 100px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(0, 0, 0);  
+                }
+            #gallery
+                {
+                    background-color: purple;
+                    width: 100px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(255, 255, 255);
+                }
+            
+            img.rounded-corners {
+                border-radius: 50px;
+            }
+
+            #google {  
+    background-color: gold;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}
+
+#mail
+                {
+                    background-color: purple;
+                    width: 100px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(255, 255, 255);
+                }
+
+                #hymn {  
+    background-color: gold;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}

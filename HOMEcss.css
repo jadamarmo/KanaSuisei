@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/proxy/NJROmEESXwEiONT0Sx0WQDx1fhkrsKUcuxHEcbou9eM0PA3NCGpmK-P9JVIke3uJDxA-o3Yu0sKeCXeRT7lruiMM6XSwVy5UQXjczmrFlEr9J1DYDGMjjkiPVUbgO873yH0jbGeGvhl6hc33zjCJYIF1obkz3CADz48jQA);
+
+     background-size: auto; background-attachment: scroll; background-size: cover; padding: 0 10% 0 10%;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+#home {  
+    background-color: gold;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}
+
+#gallery {
+    background-color: purple;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(255, 255, 255);
+}
+
+#google {  
+    background-color: gold;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}
+
+#mail
+                {
+                    background-color: purple;
+                    width: 100px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(255, 255, 255);
+                }
+
+                #hymn {  
+    background-color: gold;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}
