@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            REGISTER
+        </title>
+
+            <link rel="stylesheet" href="registrationCss.css">        
+    </head>
+    
+    <body>
+        <h2>Registration Page</h2>
+        <br>
+        <div class="register">
+            <form id="register">
+
+                <label for="firstname"><b>First Name
+                </b>
+                </label>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                <br><br>
+
+                <label for="middlename"><b>Middle Name</b></label>
+                <input type="text" name="middlename" id="middlename" placeholder="Middle Name">
+                <br><br>
+
+                <label for="familyname"><b>Family Name
+                </b>
+                </label>
+                <input type="text" name="familyname" id="familyname" placeholder="Family Name">
+                <br><br>
+
+                <label for="gender"><b>GENDER</b></label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male"><b>Male</b></label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female"><b>Female</b></label><br><br>
+
+                <label for="email"><b>Email
+                </b>
+                </label><br>
+                <input type="email" name="email" id="email" placeholder="example@example.com">
+                <br><br>
+
+                <label for="address"><b>Home Address
+                </b>
+                </label><br>
+                <input type="text" name="address" id="address" placeholder="Home Address">
+                <br><br>
+                
+                <label for="hobbies"><b>HOBBIES</b></label><br>
+                <input type="checkbox" name="hobby1" id="hobby1" value="Computer Games">
+                <label for="hobby1">Computer Games</label><br>
+                <input type="checkbox" name="hobby2" id="hobby2" value="Playing Music Instruments">
+                <label for="hobby2">Playing Music Instruments</label><br>
+                <input type="checkbox" name="hobby3" id="hobby3" value="Cooking">
+                <label for="hobby3">Cooking</label><br>
+                <input type="checkbox" name="hobby4" id="hobby4" value="Drawing">
+                <label for="hobby4">Drawing</label><br><br>
+
+                <label for="colors"><b>FAVORITE COLOR:</b></label>
+                <br>
+                <select name="colors" id="colors">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="orange">Orange</option>
+                    <option value="purple">Purple</option>
+                    <option value="brown">Brown</option>
+                    <option value="black">Black</option>
+                </select>
+                <br><br>
+                
+                <label for="yourself"><b>ABOUT YOURSELF:</b></label>
+                <br>
+                <textarea id="yourself" name="yourself" rows="5" cols="50"></textarea>
+                <br><br>
+                
+                <input type="button" onclick="alert('Thank You for Registering.')" name="submit" id="submit" value="Submit">    
+                <br><br>
+                <input type="reset" onclick="alert('The Registration Page is now Clear.\nPlease Input the Details For Your Account Again.')" name="clear" id="clear" value="Clear">
+
+
+            </form>
+        </div>
+    </body>
+</html>

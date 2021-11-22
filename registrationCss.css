@@ -1,0 +1,101 @@
+            body 
+                {
+                  margin: 0;
+                  padding: 0;
+                  background-color: rgb(0, 87, 163);      
+                }
+
+            .register
+                {
+                    width: 380px;
+                    height: 850px;
+                    overflow: hidden;
+                    margin: auto;
+                    margin: 20 0 0 450px;
+                    padding: 80px;
+                    background: rgb(42, 1, 107);
+                    border-radius: 20px;
+                }
+            h2
+                {
+                    text-align: center;
+                    color: rgb(37, 250, 48);
+                    padding: 10px;
+                }
+            label
+                {
+                    color: rgb(0, 255, 255);
+                    font-size: 20px;
+                }
+            #email
+                {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px; 
+                }
+            #address {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px;
+            }
+            #firstname
+                {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px; 
+                }
+            #familyname
+                {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px; 
+                }
+            #middlename
+                {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px; 
+                }
+            #yourself {
+                    width: 350px;  
+                    height: 100px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px;
+            }
+            #colors {
+                    width: 350px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 3px;  
+                    padding-left: 8px;
+            }
+            #submit
+                {
+                    width: 360px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(0, 0, 0);
+                }
+            #clear
+                {
+                    width: 360px;  
+                    height: 30px;  
+                    border: none;  
+                    border-radius: 17px;  
+                    padding-left: 7px;  
+                    color: rgb(0, 0, 0);
+                }
+            
